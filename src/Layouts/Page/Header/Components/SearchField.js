@@ -11,8 +11,8 @@ const Input = styled.input`
     outline: none;
     border-radius: 24px;
     border: solid #E2E8F0 1px;
-    background-color: #D9E2EF;
-    color: #152842;
+    background-color: #F8FAFC;
+    color: #E2E8F0;
     width: 100%;
     &:hover {
         background: linear-gradient(180deg, #DFEAF1 0%, #CFDDE8 100%);
