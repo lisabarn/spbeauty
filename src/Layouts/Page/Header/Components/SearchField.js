@@ -9,8 +9,8 @@ const WrapperInput = styled.div`
 
 const Input = styled.input`
     outline: none;
-    border-radius: 0px;
-    border: solid #152842 1px;
+    border-radius: 24px;
+    border: solid #E2E8F0 1px;
     background-color: #D9E2EF;
     color: #152842;
     width: 100%;
