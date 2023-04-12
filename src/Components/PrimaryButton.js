@@ -10,14 +10,14 @@ function PrimaryButton(props) {
         background: #3B82F6;
         border-radius: 24px;
         border: 0px;
-        box-shadow: inset 0px 1px 2px rgba(10, 15, 26, 0.08);
+        box-shadow: none;
         min-width: ${minWidth};
         color: white;
         &:hover {
-            background: linear-gradient(180deg, #4D9FF0 0%, #36699D 100%);
+            background: rgba(59,130,246,0.8);
         }
         &:active {
-            background: #152842;
+            background: rgba(15,23,42,0.6);
         }
     `;
     return (
