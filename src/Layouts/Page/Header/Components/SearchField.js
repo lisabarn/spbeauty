@@ -15,9 +15,9 @@ const Input = styled.input`
     color: #94A3B8;
     width: 100%;
     &:hover {
-        background: rgba(248, 250, 252, 0.8);
-        color: rgba(226, 232, 240, 0.8);
-        border: solid #E2E8F0 2px;
+        background: rgba(248, 250, 252, 0.3);
+        color: rgba(148, 163, 184, 0.3);
+        border: 1px solid rgba(226, 232, 240, 0.3);
     }
     &:focus {
         background: white;
@@ -27,7 +27,7 @@ const Input = styled.input`
 const SearchIconWrapper = styled.div`
     position: absolute;
     box-sizing:border-box;
-    right: 0px;  /* Здесь можно добавить отступ от правого края, чтобы сдвинуть иконку левее */
+    right: 7px;  /* Здесь можно добавить отступ от правого края, чтобы сдвинуть иконку левее */
     top:50%;
     transform: translateY(-50%);
 `;
@@ -35,7 +35,7 @@ const SearchIconWrapper = styled.div`
 function SearchField() {
     return (
         <WrapperInput className='d-inline-flex'>  {/* Устанавливает ширину поля и включает относительное положение */}
-            <Input className='p-2' placeholder='Найти'/>
+            <Input className='text-rg-bd px-3 py-2' placeholder='Найти'/>
             <SearchIconWrapper className='p-2'>  {/* Устанавливает абсолютное положение внутри поля ввода */}
                 <IconOnlyButton icon={<SearchIcon/>}/>
             </SearchIconWrapper>

@@ -6,8 +6,11 @@ const Input = styled.input`
     border: solid #E2E8F0 1px;
     background-color: #F8FAFC;
     color: #0F172A;
+    width: 447px;
     &:hover {
-        background-color: #D9E2EFB8;
+        background-color: rgba(248,250,252,0.8);
+        color: rgba(148,163,184,0.8);
+        border: solid rgba(226,232,240,0.8) 1px;
     }
 `;
 

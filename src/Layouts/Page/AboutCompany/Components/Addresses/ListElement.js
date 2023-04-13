@@ -14,10 +14,13 @@ const Option = styled.div`
 
 function ListElement(props) {
     return (
-        <div className='d-flex flex-row align-items-center align-self-stretch gap-2'>
-            <Option className='flex-grow-1 py-3'>{props.children}</Option>
-            <EditIcon minWidth='0'>Ред.</EditIcon>
-            <RemoveIcon minWidth='0'>Удл.</RemoveIcon>
+        <div className='d-flex flex-row justify-content-between align-items-center align-self-stretch gap-2'>
+            <div><Option className='flex-grow-1 py-3 '>{props.children}</Option>
+            </div>
+            <div className='d-inline-flex gap-1'>
+                <EditIcon minWidth='0'>Ред.</EditIcon>
+                <RemoveIcon minWidth='0'>Удл.</RemoveIcon>
+            </div>
         </div>
     );
 }
